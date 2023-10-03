@@ -4,7 +4,7 @@ import static model.constants.Colour.RED_APPLE;
 import static model.constants.Discount.RED_APPLE_DISCOUNT;
 
 public class Apple extends Food {
-    private String colour;
+    private final String colour;
 
     public Apple(int amount, double price, String colour) {
         super.amount = amount;

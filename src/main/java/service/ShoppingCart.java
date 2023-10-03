@@ -3,7 +3,7 @@ package service;
 import model.Food;
 
 public class ShoppingCart {
-    private Food[] foods;
+    private final Food[] foods;
 
     public ShoppingCart(Food[] foods) {
         this.foods = foods;
